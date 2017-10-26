@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<!-- 
+		1: Spring开发环境搭建
+			1.1: 添加配置文件和相应spring-3.2-core.Jar 核心包
+			1.2: 创建Date对象，测试Spring开发环境。
+			1.3: 通过Spring Junit测试实例化Date
+			
+		2: Hibernate开发环境搭建
+			2.1: 添加配置文件和相应hibernate-3.6.Jar+mysql驱动包
+			2.2: 分析cn.yi.ozone.util.HibernateSessionFactory 的作用: 加载Hibernate配置文件，创建session
+			2.3: 通过逆向生成model。orm映射文件
+	
+	
+	 -->
+	<bean id="date" class="java.util.Date" />
+
+</beans>
